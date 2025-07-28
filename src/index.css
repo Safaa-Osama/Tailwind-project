@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.line{
+    height: 5px;
+    width: 80px;
+}
+
+.item:hover .layer{
+    opacity:1;
+}
+.layer{
+    transition: all .8s ease;
+}
+.content{
+  min-height: calc(-110px + 100vh);
+  margin-top: 90px;
+}
+.content>div{
+min-height: inherit;
+}
+footer li{
+    padding: 3px;
+    margin: 5px;
+    border-radius: 50%;
+    border: solid white 1px;
+}
