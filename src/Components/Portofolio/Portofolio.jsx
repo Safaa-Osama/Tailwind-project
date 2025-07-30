@@ -3,7 +3,7 @@ import Heading from "../Heading/Heading";
 import home from "../../assets/img/home.png";
 import cake from "../../assets/img/cake.png";
 import house from "../../assets/img/house.png";
-import LightBox from "../lLghtbox/Lightbox";
+import LightBox from "../Lightbox/Lightbox";
 import { useEffect } from "react";
 
 export default function Portofolio() {
