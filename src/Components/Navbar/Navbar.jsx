@@ -5,10 +5,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
 const scrollFunction = ()=> setScrolled(scrollY>50)
-window.addEventListener('scroll', scrollFunction)
-
-
-
+window.addEventListener('scroll', scrollFunction)``
   }, [])
   
 

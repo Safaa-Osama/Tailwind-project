@@ -23,12 +23,10 @@ export default function Portofolio() {
           bgColor="bg-black"
         />
 
-        <LightBox opened={openimg} setOpened={setOpenimg} image={imgShow} />
-
-        <div className="gallery container mx-auto grid grid-cols-3">
+        <div className="gallery container mx-auto grid grid-cols-3 gap-6">
           <div className="item flex gap-6 justify-center mt-10 relative">
             <div>
-              <img src={home} className="w-xs rounded-md" alt="home" />
+              <img src={home} className="w-full rounded-md" alt="home" />
               <div
                 onClick={() => {
                   setImgshow(home);
@@ -43,7 +41,7 @@ export default function Portofolio() {
 
           <div className="item flex gap-6 justify-center mt-10 relative">
             <div>
-              <img src={cake} className="w-xs rounded-md" alt="cake" />
+              <img src={cake} className="w-full rounded-md" alt="cake" />
               <div
                 onClick={() => {
                   setImgshow(cake);
@@ -58,7 +56,7 @@ export default function Portofolio() {
 
           <div className="item flex gap-6 justify-center mt-10 relative">
             <div>
-              <img src={house} className="w-xs rounded-md" alt="house" />
+              <img src={house} className="w-full rounded-md" alt="house" />
               <div
                 onClick={() => {
                   setImgshow(house);
@@ -73,7 +71,7 @@ export default function Portofolio() {
 
           <div className="item flex gap-6 justify-center mt-10 relative">
             <div>
-              <img src={home} className="w-xs rounded-md" alt="home" />
+              <img src={home} className="w-full rounded-md" alt="home" />
               <div
                 onClick={() => {
                   setImgshow(home);
@@ -88,7 +86,7 @@ export default function Portofolio() {
 
           <div className="item flex gap-6 justify-center mt-10 relative">
             <div>
-              <img src={cake} className="w-xs rounded-md" alt="cake" />
+              <img src={cake} className="w-full rounded-md" alt="cake" />
               <div
                 onClick={() => {
                   setImgshow(cake);
@@ -103,7 +101,7 @@ export default function Portofolio() {
 
           <div className="item flex gap-6 justify-center mt-10 relative">
             <div>
-              <img src={house} className="w-xs rounded-md" alt="house" />
+              <img src={house} className="w-full rounded-md" alt="house" />
               <div
                 onClick={() => {
                   setImgshow(house);
@@ -116,6 +114,9 @@ export default function Portofolio() {
             </div>
           </div>
         </div>
+
+        <LightBox opened={openimg} setOpened={setOpenimg} image={imgShow} />
+        
       </div>
     </>
   );
